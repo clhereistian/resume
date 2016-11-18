@@ -27,7 +27,11 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <ul>
+            <li>Passionate software developer offering ten years of experience with the full software development lifecycle from initial concept to final deployment.</li>
+            <li>Expert in development methodologies, tools and design strategies leading to the rollout of high quality applications.</li>
+            <li>Well rounded team player with excellent communication and organizational skills.</li>
+            </ul>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -44,36 +48,53 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Professional Experience</h2>
         </header>
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details" itemprop="description">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
+          <h3 class="resume-item-title" itemprop="name">EnergyCAP, Inc.</h3>
+          <h4 class="resume-item-details" itemprop="description">Senior Software Developer &bull; 2005 &mdash; 2016</h4>
+          <!-- <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p> -->
           <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
+            <li>Provided software engineering expertise by developing code for the enterprise level, flagship product in C# and JavaScript.</li>
+            <li>Contributed to defining feature requirements, creating specifications, reviewing code, writing unit and integration tests, QA testing of features and making decisions on new technologies.</li>
+            <li>Developed SQL Server code including complex stored procedures views and functions.</li>
+            <li>Communicated directly with clients to flesh out custom requirements, determine deliverables and
+            finalize deployment of custom work.</li>
+            <li>Created and maintained hundreds of reports. Formulated a plan to separate the business logic from
+            the presentation layer and hired and managed an offshore team developers to do the work.</li>
+            <li>Productively standardized the format of the reports. Developed a system of monthly QA for the work.</li>
+            <li>Skillfully led the team effort to incorporate unit testing into the existing development workflow. The
+            unit tests are now included in the development of all new features.</li>
+            <li>Assisted a small team in designing an extensive, public RESTful API. The API supports the transition
+            from a legacy client to current HTML and JavaScript client. Helped document the API. This documentation is embedded within the code, which means that it enabled developers to document their work in a format that is understandable to clients.</li>
+            <li>Successfully contributed to the design and development of several in-house software products that improved business flow within the company.</li>
           </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
-
         </div><!-- end of resume-item -->
 
         <!-- another resume item -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details" itemprop="description">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
+          <h3 class="resume-item-title" itemprop="name">Resolved Technologies, LLC</h3>
+          <h4 class="resume-item-details" itemprop="description">Independent Contractor &bull; 2004 &mdash; 2016</h4>
+           <ul class="resume-item-list">
+            <li>Responsible for independent software development and managing contract jobs. Handled all aspects of the business including writing RFPs and wining contracts, corresponding with clients to clarify their needs, as well as basic bookkeeping and invoicing.</li>
+            <li>Efficiently hired and managed a small team of subcontractors. Skillfully handled project management for the team.</li>
+            <li>Productively partnered with a graphic design firm in order to carry out the work.</li>
+            <li>Gained established clients, subcontractors and business processes, which has allowed the company to maintain profit and reduce the number of working hours.</li>
+           </ul>
 
         </div><!-- end of resume-item -->
 
         <!-- by now you're getting the picture... -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details" itemprop="description">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
+          <h3 class="resume-item-title" itemprop="name">Nittany Notes</h3>
+          <h4 class="resume-item-details" itemprop="description">General Manager &bull; 2003 &mdash; 2005</h4>
+          <ul class="resume-item-list">
+            <li>Accountable for general running of the office, hiring, training, staff development, sales and inventory for a local business of 100+ employees.</li>
+            <li>Involved in developing systems and processes to manage 300+ business units and 100+ employees.</li>
+            <li>Successfully developed a VBA application to manage and report on the written contributions of 100+ employees across 300+ business units.</li>
+         </ul>
 
         </div><!-- end of resume-item -->
 
@@ -90,9 +111,8 @@
         </header>
 
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
-          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
+          <h3 class="resume-item-title" itemprop="name">Pennsylvania State University</h3>
+          <h4 class="resume-item-details" itemprop="description">Bachelor of Arts, English &bull; 1999 &mdash; 2003</h4>          
         </div>
 
       </section>
@@ -108,15 +128,9 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://donutlocator.io">donutfinder.io</a></h3>
-          <h4 class="resume-item-details">Founder & Primary Developer &bull; 2012 &mdash; Present</h4>
-          <p class="resume-item-copy">Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Donut Eater's User Group</h3>
-          <h4 class="resume-item-details">Co-Founder & Organizer &bull; 2007 &mdash; Present</h4>
-          <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
+          <h3 class="resume-item-title"><a href="http://donutlocator.io"></a></h3>
+          <h4 class="resume-item-details"></h4>
+          <p class="resume-item-copy"></p>
         </div>
 
       </section>
@@ -132,18 +146,8 @@
         </header>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Donut design</h4>
-          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Craft beer brewing</h4>
-          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Family leadership</h4>
-          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
+          <h4 class="resume-item-details"></h4>
+          <p class="resume-item-copy"></p>
         </div>
 
       </section>
@@ -159,21 +163,9 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details">Outstanding Achievement &bull; 2010</h4>
-          <p class="resume-item-copy">Awarded for stopping a nuclear meltdown, even though I also started it.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">Duff Beer Customer of the year</h3>
-          <h4 class="resume-item-details">1997 &mdash; 2001, 2003, 2008 &mdash; 2012</h4>
-          <p class="resume-item-copy">Honored by <a href="https://en.wikipedia.org/wiki/Duff_Beer">Duff Beer</a> for being an outstanding customer several years straight. Qualifications included most beer consumed at a bar, most beer purchased, and most beer ralphed.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">Moe's Patron of the Month</h3>
-          <h4 class="resume-item-details">12/2001, 8/2004</h4>
-          <p class="resume-item-copy">Specifically this prestigious awarded twice for stopping a robber with my belly.</p>
+          <h3 class="resume-item-title" itemprop="award"></h3>
+          <h4 class="resume-item-details"></h4>
+          <p class="resume-item-copy"></p>
         </div>
 
       </section>
@@ -189,15 +181,9 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://beerfortheworld.com">Beer for the World</a></h3>
-          <h4 class="resume-item-details">Volunteer &bull; 2008 &mdash; Present</h4>
-          <p class="resume-item-copy">Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Workers Labor Union</h3>
-          <h4 class="resume-item-details">Member in Good Standin &bull; 1994 &mdash; Present</h4>
-          <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
+          <h3 class="resume-item-title"></h3>
+          <h4 class="resume-item-details"></h4>
+          <p class="resume-item-copy"></p>
         </div>
 
       </section>
@@ -214,8 +200,7 @@
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            <li><a href="#">Springfield Poker Club</a></li>
-            <li><a href="#">Springfield Donut Eater's User Group</a></li>
+            <li><a href="#"></a></li>            
           </ul>
         </div>
 
@@ -224,8 +209,8 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line"></p>
+        <p class="footer-line"></p>
       </footer>
 
     </div>
