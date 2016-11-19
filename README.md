@@ -1,4 +1,4 @@
-# resume-template
+# resume
 
 *An online resume for Christian Smith, software developer.*
 
